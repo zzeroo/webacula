@@ -22,13 +22,13 @@
 	<br />
       <h3>Скачать</h3>
 
-    <p>Получить новую версию : </p>
+    <p>Получить новую стабильную версию : </p>
     <pre>
-    svn co http://webacula.svn.sourceforge.net/svnroot/webacula/trunk/webacula  &lt;your dir&gt;
+    git clone git://webacula.git.sourceforge.net/gitroot/webacula/webacula
     </pre>
     или
     <pre>
-    svn co http://webacula.googlecode.com/svn/trunk/webacula  &lt;your dir&gt;
+    git clone git://github.com/tim4dev/webacula.git
     </pre>
 
    <br />
@@ -36,23 +36,21 @@
     <p>
     <ul>
       <li><a href="http://sourceforge.net/project/showfiles.php?group_id=201199">Файлы последних релизов на Source Forge</a></li>
-      <li><a href="http://code.google.com/p/webacula/downloads/list">Файлы последних релизов на Google Code</a></li>
     </ul>  
     </p>
 
    <br />
-    <h3>Домашние страницы проекта Webacula</h3>
+    <h3>Домашняя страница проекта Webacula</h3>
     <p>
     <ul>
       <li><a href="http://sourceforge.net/projects/webacula/">Webacula на Source Forge</a></li>
-      <li><a href="http://code.google.com/p/webacula/">Webacula на Google Code</a></li>
     </ul>  
     </p>
 
 
    <br />
     <h3>Инструкции по установке</h3>
-    <p>См. файл INSTALL для подробной информации.</p>
+    <p>См. файл install/INSTALL для подробной информации.</p>
 
       <!-- Primary content end -->
     </div>

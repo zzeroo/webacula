@@ -22,13 +22,13 @@
 	<br />
       <h3>Downloads</h3>
 
-    <p>Receive the newest version : </p>
+    <p>Receive the newest stable version : </p>
     <pre>
-    svn co http://webacula.svn.sourceforge.net/svnroot/webacula/trunk/webacula  &lt;your dir&gt;
+    git clone git://webacula.git.sourceforge.net/gitroot/webacula/webacula
     </pre>
     or
     <pre>
-    svn co http://webacula.googlecode.com/svn/trunk/webacula  &lt;your dir&gt;
+    git clone git://github.com/tim4dev/webacula.git
     </pre>
 
    <br />
@@ -36,7 +36,6 @@
     <p>
     <ul>
       <li><a href="http://sourceforge.net/project/showfiles.php?group_id=201199">Latest File Releases on Source Forge</a></li>
-      <li><a href="http://code.google.com/p/webacula/downloads/list">Latest File Releases on Google Code</a></li>
     </ul>  
     </p>
 
@@ -45,13 +44,12 @@
     <p>
     <ul>
       <li><a href="http://sourceforge.net/projects/webacula/">Webacula project on Source Forge</a></li>
-      <li><a href="http://code.google.com/p/webacula/">Webacula project on Google Code</a></li>
     </ul>  
     </p>
 
    <br />
     <h3>Installation Instructions</h3>
-    <p>See INSTALL file for details.</p>
+    <p>See install/INSTALL file for details.</p>
 
       <!-- Primary content end -->
     </div>

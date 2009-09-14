@@ -117,7 +117,7 @@
    <h3>Зеркала</h3>
    <ul>
    <li><a href="http://webacula.sourceforge.net/">http://webacula.sourceforge.net/</a></li>
-   <li><a href="http://webacula.googlecode.com/">http://webacula.googlecode.com/</a></li>
+   <li><a href="http://github.com/tim4dev/webacula/">http://github.com/tim4dev/webacula/</a></li>
    </ul>
    <p>
    </p>      
