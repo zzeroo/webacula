@@ -30,15 +30,12 @@
 <br />
    <h3>Новое в версии 3.1</h3>
          <ul>
-			<li><b>Полная поддержка MySQL и PostgreSQL</b>. <font  style="color : #ff0000;">NEW!</font></li>
-         <li>Перенумерация версий. Теперь основные номера версий WeBacula будут совпадать с Bacula.
-             Создана ветка branch-1.38-2.x для старых версий webacula (которые работают с bacula версий 1.38...2.x)</li>
+			<li><b>Полная поддержка MySQL, PostgreSQL и Sqlite</b>. <font  style="color : #ff0000;">NEW!</font></li>
+         <li>Перенумерация версий. Теперь основные номера версий WeBacula будут совпадать с Bacula</li>
           <li>Восстановление самого свежего бэкапа для Клиента</li>
           <li>Восстановление бэкапа для Клиента, сделанного перед указанным временем</li>
           <li>Улучшенный дизайн </li>
           <li>RSS лента </li>
-          <li>Добавлен скрипт  install/check_system_requirements.php </li>
-          <li>Используется Zend Framework 1.8.3 </li>
          </ul>
 
 
@@ -72,14 +69,14 @@
 на другие записи в журнале.</p>
 <p>В журнал записывается информация, например, о различных сбоях в Заданиях, и других нештатных ситуациях.</p>
 <p><a href="<?php echo $base_url; ?>/screenshot.php">Смотрите скриншоты</a> для подробной информации.</p>
-<p>Журнал хранится в отдельной БД "webacula", теперь поддерживаются MySQL и PostgreSQL.</p>
+<p>Журнал хранится в отдельной БД "webacula", теперь поддерживаются MySQL, PostgreSQL и Sqlite.</p>
 
 	<br />
       <h3>Системные требования</h3>
       <p>
 	<ul>
 	<li>Bacula 3.0 или выше</li>
-    <li>Поддерживается СУБД <b>MySQL и PostgreSQL</b></li>
+    <li>Поддерживается СУБД <b>MySQL, PostgreSQL и Sqlite</b></li>
 	<li>Zend Framework версии 1.8.3</li>
 	<li>Zend Framework требует PHP 5 версии 5.2.4 или выше с установленным расширением PDO. Смотрите
 <a href="http://framework.zend.com/manual/ru/requirements.html" target="_blank">Приложение A. System Requirements</a>
@@ -108,7 +105,7 @@
 	 <li>Reynier Perez Mira rperezm@uci.cu : испанский перевод INSTALL.es.</li>
 	 <li>Samuel Rios Carvalho : перевод на бразильский португальский.</li>
     <li>Sven-Hendrik Haase, sh@lutzhaase.com : перевод на немецкий язык.</li>
-    <li>Carsten Menke, Carsten.Menke@prozesse-im-unternehmen.de : перевод на немецкий язык.</li>
+    <li>Carsten Menke, Carsten.Menke@prozesse-im-unternehmen.de : перевод на немецкий язык, патчи.</li>
     <li>Yuri Timofeev, tim4dev@gmail.com : разработчик Webacula.</li>
 	</ul>
 	</p>

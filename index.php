@@ -30,15 +30,12 @@
 	<h3>News v.3.1</h3>
 		<p>Change log :</p>
 			<ul>
-			<li><b>Full supported MySQL and PostgreSQL databases</b>. <font  style="color : #ff0000;">NEW!</font></li>
-			<li>Renumbering versions. Now major version number of WeBacula will match the version number of Bacula.
-             Create branch-1.38-2.x for the older versions webacula (they are working with bacula 1.38...2.x)</li>
+			<li><b>Full supported MySQL, PostgreSQL and Sqlite databases</b>. <font  style="color : #ff0000;">NEW!</font></li>
+			<li>Renumbering versions. Now major version number of WeBacula will match the version number of Bacula</li>
 			 <li>Restore the most recent backup for a client</li>
 			 <li>Restore backup for a client before a specified time</li>
 			 <li>Improved design </li>
 			 <li>RSS feed </li>
-			 <li>Add install/check_system_requirements.php script</li>
-			 <li>Up to Zend Framework 1.8.3 </li>
 			</ul>
 
 
@@ -69,14 +66,14 @@
 Records can contain links (usual web-links on which it is possible to click) to Bacula Jobs or links to other records of this logbook.</p>
 <p>In logbook insert  records, for example, about Jobs, failures of the equipment, supernumerary situations, etc.</p>
 <p><a href="<?php echo $base_url; ?>/screenshot.php">See screenshots</a> for details.</p>
-<p>Logbook stored in a separate database "webacula", now it is supported MySQL and PostgreSQL.</p>
+<p>Logbook stored in a separate database "webacula", now it is supported MySQL, PostgreSQL and Sqlite.</p>
 
 	<br />
       <h3>System Requirements</h3>
       <p>
 	<ul>
 	<li>Bacula 3.0 or later</li>
-    <li>Supported <b>MySQL and PostgreSQL</b> databases</li>
+    <li>Supported <b>MySQL, PostgreSQL and Sqlite</b> databases</li>
 	<li>Zend Framework version 1.8.3</li>
 	<li>Zend Framework is built with object-oriented PHP 5 and requires PHP 5.2.4 or later with PDO extension active. Please see
    	<a href="http://framework.zend.com/manual/en/requirements.html" target="_blank"> the system requirements appendix</a> for
@@ -109,7 +106,7 @@ Contributors:
 	 <li>Reynier Perez Mira rperezm@uci.cu : INSTALL.es translation</li>
 	 <li>Samuel Rios Carvalho : Portuguese Brazil translation.</li>
     <li>Sven-Hendrik Haase, sh@lutzhaase.com : German translation.</li>
-    <li>Carsten Menke, Carsten.Menke@prozesse-im-unternehmen.de : German translation.</li>
+    <li>Carsten Menke, Carsten.Menke@prozesse-im-unternehmen.de : German translation, patches.</li>
     <li>Yuri Timofeev, tim4dev@gmail.com : Webacula developer.</li>
 	</ul>
 	</p>
