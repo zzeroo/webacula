@@ -27,10 +27,11 @@
 	</p>
 
 <br />
-	<h3>News v.3.1</h3>
+	<h3>News v.3.2</h3>
 		<p>Change log :</p>
 			<ul>
 			<li><b>Full supported MySQL, PostgreSQL and Sqlite databases</b>. <font  style="color : #ff0000;">NEW!</font></li>
+         <li>For web designers : now very easy to create new skins. <font  style="color : #ff0000;">NEW!</font></li>
 			<li>Renumbering versions. Now major version number of WeBacula will match the version number of Bacula</li>
 			 <li>Restore the most recent backup for a client</li>
 			 <li>Restore backup for a client before a specified time</li>
@@ -74,7 +75,7 @@ Records can contain links (usual web-links on which it is possible to click) to 
 	<ul>
 	<li>Bacula 3.0 or later</li>
     <li>Supported <b>MySQL, PostgreSQL and Sqlite</b> databases</li>
-	<li>Zend Framework version 1.8.3</li>
+	<li>Zend Framework version 1.8.3 and later</li>
 	<li>Zend Framework is built with object-oriented PHP 5 and requires PHP 5.2.4 or later with PDO extension active. Please see
    	<a href="http://framework.zend.com/manual/en/requirements.html" target="_blank"> the system requirements appendix</a> for
   	more detailed information</li>

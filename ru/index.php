@@ -28,10 +28,11 @@
 	</p>
 
 <br />
-   <h3>Новое в версии 3.1</h3>
+   <h3>Новое в версии 3.2</h3>
          <ul>
 			<li><b>Полная поддержка MySQL, PostgreSQL и Sqlite</b>. <font  style="color : #ff0000;">NEW!</font></li>
-         <li>Перенумерация версий. Теперь основные номера версий WeBacula будут совпадать с Bacula</li>
+         <li>Для веб дизайнеров : теперь лекго создать новый скин. <font  style="color : #ff0000;">NEW!</font></li>
+         <li>Перенумерация версий. Основные номера версий WeBacula будут совпадать с Bacula</li>
           <li>Восстановление самого свежего бэкапа для Клиента</li>
           <li>Восстановление бэкапа для Клиента, сделанного перед указанным временем</li>
           <li>Улучшенный дизайн </li>
@@ -77,7 +78,7 @@
 	<ul>
 	<li>Bacula 3.0 или выше</li>
     <li>Поддерживается СУБД <b>MySQL, PostgreSQL и Sqlite</b></li>
-	<li>Zend Framework версии 1.8.3</li>
+	<li>Zend Framework версии 1.8.3 или выше</li>
 	<li>Zend Framework требует PHP 5 версии 5.2.4 или выше с установленным расширением PDO. Смотрите
 <a href="http://framework.zend.com/manual/ru/requirements.html" target="_blank">Приложение A. System Requirements</a>
 для более детальной информации.</li>
