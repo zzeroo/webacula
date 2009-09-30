@@ -3,5 +3,5 @@
 .buildpath
 .project
 .settings/
-library/Zend/
-tests/report/*
+library/
+tests/
