@@ -22,11 +22,6 @@ body
 	margin: 40px 15%;
 }
 
-#banner-logo
-{
-   vertical-align: text-top;
-}
-
 #banner h1
 {
    margin: 0;
@@ -111,6 +106,18 @@ a.a-top-page {
    background-color: #DAFFEA;
 }
 
+#banner-logo
+{
+   vertical-align: middle;
+}
+
+#lang
+{
+   float: right;
+   margin-right: 0px;
+   vertical-align: top;
+   margin-bottom: 20px;
+}
 
 </style>
 
@@ -124,6 +131,9 @@ a.a-top-page {
 <div id="container">
 	<div id="banner-logo">
       <img src="images/logo.png" alt="Webacula logo" style="margin-bottom: 15px;" />
+      <div id="lang">
+         <a href="index.html">english</a> | <a href="index_ru.html">русский</a>
+      </div>
 	</div>
 
 	<div id="nav">
@@ -280,15 +290,15 @@ Records can contain links (usual web-links on which it is possible to click) to 
 	</p><ul>
 	<li>Bacula 3.0 or later</li>
     <li>Supported <b>MySQL, PostgreSQL and Sqlite</b> databases</li>
-	<li>Zend Framework version 1.8.3 and later</li>
+	<li>Zend Framework version 1.8.3 or later</li>
 	<li>Zend Framework is built with object-oriented PHP 5 and requires PHP 5.2.4 or later with PDO extension active. Please see
    	<a href="http://framework.zend.com/manual/en/requirements.html" target="_blank"> the system requirements appendix</a> for
   	more detailed information</li>
 	<li>Apache and mod_rewrite</li>
-	<li>Installed php-gd package. GD is an open source code library for the dynamic creation of images</li>
+	<li>Installed php-gd package</li>
 	<li>Create separate database "webacula" (script in install/ directory) for use Logbook and Restore Job features</li>
-	<li>Enable JavaScript for Logbook and Restore Job</li>
-	<li>http://php.net/dom for RSS feed</li>
+	<li>Enable JavaScript</li>
+	<li>http://php.net/dom for RSS feed. Installed php-xml package</li>
 	<li><a href="http://docs.jquery.com/Browser_Compatibility" target="_blank">Browser Compatibility</a>.</li>
 	</ul>
 <a href="#top-page" class="a-top-page">Top of page</a>
@@ -330,7 +340,7 @@ Records can contain links (usual web-links on which it is possible to click) to 
 <p>
 Git clone URLs :
 <pre>
-git://webacula.git.sourceforge.net/gitroot/webacula/webacula 
+git://webacula.git.sourceforge.net/gitroot/webacula/webacula
 
 git://github.com/tim4dev/webacula.git
 </pre>

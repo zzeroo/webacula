@@ -1,0 +1,426 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link rel="shortcut icon" href="favicon.ico" />
+   <title>Webacula домашняя страница</title>
+
+<style type="text/css" media="screen">
+
+body
+{
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+
+#container
+{
+	margin: 40px 15%;
+}
+
+#banner h1
+{
+   margin: 0;
+   padding: .5em;
+}
+
+#nav
+{
+   float: left;
+   width: 180px;
+   margin-left: 0px;
+   margin-bottom: 30px;
+   padding-top: 1em;
+}
+
+a.a-top-page {
+   font-size: 11px;
+   font-family: arial, sans-serif;
+   color: #000060;
+}
+
+/* Menu */
+#menu ul {
+   margin: 0;
+   padding: 0px 0 0 14px;
+   list-style: none;
+}
+
+#menu li {
+	padding: 1px 0 4px 0;
+}
+
+#menu a {
+   text-decoration: none;
+   color: #000060;
+   font-weight: bold;
+   font-size: 14px;
+   font-family: arial, sans-serif;
+}
+
+#menu a:hover {
+   text-decoration: underline;
+   color: #0000FF;
+}
+
+#menu h2 {
+	margin-bottom: 10px 0 0 0;
+	font-size: 16px;
+	border-bottom: 1px dotted #FF9EAA;
+   color: #920000;
+}
+
+/* end menu */
+
+
+#nav p { margin-top: 10px; }
+
+#content
+{
+	padding-top: 1em;
+	margin: 10px 2em 2em 240px;
+}
+
+#content h2 { margin-top: 0; }
+
+#footer
+{
+	clear: both;
+	padding: 1em;
+	text-align: right;
+	border-top: 1px dotted #FF9EAA;
+}
+
+#spacer {margin-top: 2em;}
+
+#table-screenshot {
+   text-align: left;
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+#table-screenshot td {
+   background-color: #DAFFEA;
+}
+
+#banner-logo
+{
+   vertical-align: middle;
+}
+
+#lang
+{
+   float: right;
+   margin-right: 0px;
+   vertical-align: top;
+   margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<a name="top-page"></a>
+
+<div id="container">
+	<div id="banner-logo">
+      <img src="images/logo.png" alt="Webacula logo" style="margin-bottom: 15px;" />
+      <div id="lang">
+         <a href="index.html">english</a> | <a href="index_ru.html">русский</a>
+      </div>
+	</div>
+
+	<div id="nav">
+      <div id="menu">
+         <h2>Основное</h2>
+         <ul>
+               <li><a href="#what-is-webacula">Что такое Webacula?</a></li>
+               <li><a href="#news">Новости</a></li>
+               <li><a href="#screenshots">Скриншоты</a></li>
+               <li><a href="#video">Видео</a></li>
+               <li><a href="#features">Возможности</a></li>
+               <li><a href="#requirements">Требования к системе</a></li>
+               <li><a href="https://sourceforge.net/projects/webacula/">Страница на SourceForge</a></li>
+               <li><a href="#articles">Статьи</a></li>
+               <li><a href="#license">Лицензия</a></li>
+         </ul>
+         <h2>Загрузка</h2>
+         <ul>
+               <li><a href="#downloads">Загрузить</a></li>
+               <li><a href="#source-code">Исходный код</a></li>
+         </ul>
+         <h2>Поддержка</h2>
+         <ul>
+               <li><a href="#mailing-lists">Рассылки</a></li>
+               <li><a href="https://sourceforge.net/tracker/?group_id=201199&atid=976599">Баги</a></li>
+               <li><a href="https://sourceforge.net/tracker/?group_id=201199&atid=976601">Патчи</a></li>
+               <li><a href="https://sourceforge.net/tracker/?group_id=201199&atid=976602">Запрос улучшений</a></li>
+               <li><a href="http://sourceforge.net/apps/trac/webacula/">Трекер</a></li>
+         </ul>
+
+
+		</div>
+	</div>
+
+<div id="content">
+
+<a name="what-is-webacula">
+<h2>Что такое Webacula?</h2>
+</a>
+	<p>
+	<strong>Webacula</strong> - <strong>W</strong>eb + <strong>Bacula</strong> - веб интерфейс для <a href="http://www.bacula.org/" target="_blank">Bacula backup system</a>.
+	</p>
+<div id="spacer">&nbsp;</div>
+
+<a name="news">
+<h2>Новости</h2>
+</a>
+<p>
+   <ul>
+      <li><b>Полная поддержка MySQL, PostgreSQL и Sqlite</b>. <font  style="color : #ff0000;">Новое!</font></li>
+      <li>Для веб-дизайнеров : теперь просто создавать новые скины. <font  style="color : #ff0000;">Новое!</font></li>
+      <li>Перенумерация версий. Теперь основной номер версии Webacula будет равен номеру версии Bacula</li>
+      <li>Восстановление самого свежего бэкапа для Клиента</li>
+      <li>Восстановление бэкапа для Клиента, сделанного перед указанным временем</li>
+      <li>Улучшенный дизайн</li>
+      <li>RSS лента</li>
+   </ul>
+</p>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="screenshots">
+<h2>Скриншоты</h2>
+</a>
+<p>
+
+<table id="table-screenshot" width="100%" border="0" cellspacing="7" cellpadding="7">
+  <caption>Screenshots</caption>
+  <tbody>
+    <tr>
+      <td>Главная страница Webacula</td>
+      <td><a href="images/webacula_main_page.png" target="_blank">
+       <img src="images/tumb/small_webacula_main_page.png" alt="Webacula main page" align="center" border="0" title="Webacula main page"></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Восстановление Задания, часть 1</td>
+      <td>
+      <a href="images/webacula_restore_job.png" target="_blank">
+       <img src="images/tumb/small_webacula_restore_job.png" alt="Restore Job" align="center" border="0" title="Restore Job">
+       </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Восстановление Задания, часть 2</td>
+      <td>
+       <a href="images/webacula_restore_job2.png" target="_blank">
+       <img src="images/tumb/small_webacula_restore_job2.png" alt="Restore Job" align="center" border="0" title="Restore Job">
+       </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Главное меню</td>
+      <td>
+      <a href="images/webacula_main_menu.png" target="_blank">
+       <img src="images/tumb/small_webacula_main_menu.png" alt="Main Menu" align="center" border="0" title="Main Menu">
+       </a>
+      </td>
+    </tr>
+    <tr>
+      <td>График</td>
+      <td>
+      <a href="images/webacula_timeline.png" target="_blank">
+       <img src="images/tumb/small_webacula_timeline.png" alt="Timeline" align="center" border="0" title="Timeline">
+       </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="video">
+<h2>Видео</h2>
+</a>
+<p>Обзор Webacula : </p>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/0cKdPdTsgME&hl=ru&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/0cKdPdTsgME&hl=ru&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+<p><a href="#top-page" class="a-top-page">Наверх</a></p>
+<div id="spacer">&nbsp;</div>
+
+<a name="features">
+<h2>Возможности</h2>
+</a>
+   <p>Основные возможности :</p>
+   <ul>
+   <li>Запуск Заданий</li>
+   <li>Восстановление всех файлов или выбранных файлов для указанного Id Задания</li>
+   <li>Восстановление самого свежего бэкапа для клиента</li>
+   <li>Восстановление бэкапа, сделанного перед указанным временем</li>
+   <li>Построение временной диаграмы выполнения Заданий</li>
+   <li>Монтирование, размонтирование Хранилищ</li>
+   <li>Показ Заданий, завершившихся с ошибками, сбоями (за последние 7 дней)</li>
+   <li>Показ состояния ваших Томов</li>
+   <li>Показ запланированных Заданий (на ближайшие 24 часа)</li>
+   <li>Показ всех выполняющихся Заданий</li>
+   <li>Показ завершившихся Заданий (выполненных за последние 24 часа)</li>
+   <li>Поиск Заданий по нескольким критериям</li>
+   <li>Выдача детальной информации о Пулах, Томах, Хранилищах и Клиентах</li>
+   <li>RSS лента</li>
+   <li>Мультиязычность. В настоящее время поддерживаются языки: английский, немецкий, французский, бразильский португальский, русский.</li>
+   <li><strong>Журнал</strong> - простой электронный журнал для записей о бэкапах. Оператор вручную работает с журналом: добавляет,
+изменяет, удаляет записи. Записи могут содержать ссылки (обычные веб-ссылки по которым можно кликать) на Задания Bacula или ссылки
+на другие записи в журнале. В журнал записывается информация, например, о различных сбоях в Заданиях, и других нештатных ситуациях.
+Журнал хранится в отдельной БД "webacula", теперь поддерживаются MySQL, PostgreSQL и Sqlite.</li>
+</ul>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="requirements">
+<h2>Требования к системе</h2>
+</a>
+      <p>
+	</p><ul>
+	<li>Bacula 3.0 или выше</li>
+    <li>Поддерживаются <b>MySQL, PostgreSQL и Sqlite</b></li>
+	<li>Zend Framework 1.8.3 или выше</li>
+	<li>Zend Framework требует PHP 5 версии 5.2.4 или выше с установленным расширением PDO. Смотрите
+   	<a href="http://framework.zend.com/manual/en/requirements.html" target="_blank"> the system requirements appendix</a>для более детальной информации</li>
+	<li>Apache и mod_rewrite</li>
+	<li>Установленный пакет php-gd</li>
+	<li>Создать отдельную БД "webacula" (скриптом из каталога install/) для возможности ведения Журнала и восстановления Заданий</li>
+	<li>Включенный JavaScript</li>
+	<li>http://php.net/dom для RSS ленты. Установленный пакет php-xml</li>
+	<li><a href="http://docs.jquery.com/Browser_Compatibility" target="_blank">Совместимость с браузерами</a></li>
+	</ul>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="articles">
+<h2>Статьи</h2>
+</a>
+<p>Webacula в веб:</p>
+<ul>
+   <li><a href="https://sourceforge.net/community/the-birth-of-webacula/" target="_blank">The Birth of Webacula</a></li>
+   <li><a href="http://redalex.ru/index.php?option=com_content&view=article&id=1:-web-bacula&catid=1:bacula&Itemid=3" target="_blank">Установка Web-интерфейса для системы резервного копирования Bacula</a></li>
+</ul>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="downloads">
+<h2>Загрузка</h2>
+</a>
+<p>Загрузить :</p>
+<ul>
+   <li><a href="https://sourceforge.net/projects/webacula/files/">Файлы Webacula на SourceForge</a></li>
+   <li><a href="http://github.com/tim4dev/webacula/downloads">Файлы Webacula на Github</a></li>
+</ul>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+<a name="source-code">
+<h2>Исходный код</h2>
+</a>
+<p>Git репозитории :</p>
+<ul>
+   <li><a href="http://webacula.git.sourceforge.net/">Browse Webacula Git repository on the SourceForge</a></li>
+   <li><a href="http://github.com/tim4dev/webacula">Browse Webacula Git repository on the Github</a></li>
+</ul>
+<p>
+Git clone URLs :
+<pre>
+git://webacula.git.sourceforge.net/gitroot/webacula/webacula
+
+git://github.com/tim4dev/webacula.git
+</pre>
+</p>
+<a href="#top-page" class="a-top-page">Наверх</a>
+<p><div id="spacer">&nbsp;</div></p>
+
+
+<a name="mailing-lists">
+<h2>Рассылки</h2>
+</a>
+<p>Почтовые рассылки :</p>
+<ul>
+   <li><a href="https://lists.sourceforge.net/mailman/listinfo/webacula-announce">webacula-announce</a>
+      <a href="https://sourceforge.net/mailarchive/forum.php?forum_name=webacula-announce">(Archive)</a>
+   </li>
+   <li><a href="https://lists.sourceforge.net/mailman/listinfo/webacula-users">webacula-users</a> - для пользователей
+      <a href="https://sourceforge.net/mailarchive/forum.php?forum_name=webacula-users">(Archive)</a>
+   </li>
+</ul>
+<p><a href="#top-page" class="a-top-page">Наверх</a></p>
+<p><div id="spacer">&nbsp;</div></p>
+
+
+<a name="license">
+<h2>Лицензия</h2>
+</a>
+<p>Copyright 2007, 2008, 2009 Yuri Timofeev <a href="mailto:tim4dev@gmail.com">tim4dev@gmail.com</a></p>
+
+<a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank"><img ilo-full-src="images/other/gplv3-127x51.png" src="images/other/gplv3-127x51.png" alt="GPL3" align="left" border="0" height="51" hspace="15" vspace="15" width="127"></a>
+
+<p>Webacula - это свободная программа; вы можете повторно распространять её и/или модифицировать
+её в соответствии со Стандартной Общественной Лицензей GNU, опубликованной Фондом Свободного ПО; либо версии 3,
+либо (по вашему выбору) любой более поздней версии.</p>
+
+<p>Webacula распространяется в надежде, что она будет полезной, но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ;
+даже без подразумеваемых гарантий КОММЕРЧЕСКОЙ ЦЕННОСТИ или ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ
+ЦЕЛИ. Для получения подробных сведений смотрите Стандартную Общественную Лицензию GNU.</p>
+
+<p>Вы должны были получить копию Стандартной Общественной Лицензии GNU вместе с этой
+программой; если нет, смотрите
+<a href="http://www.gnu.org/licenses/" name="GPL3" target="_blank">http://www.gnu.org/licenses/</a>.
+</p>
+
+<p>
+<div align="left">
+   <a href="http://framework.zend.com/" target="zfwindow"><img ilo-full-src="images/other/PoweredBy_ZF_4LightBG.png" src="images/other/PoweredBy_ZF_4LightBG.png" border="0"></a>
+&nbsp;&nbsp;&nbsp;
+   <a href="http://jquery.com/" target="_blank"><img ilo-full-src="images/other/jquery_logo.png" src="images/other/jquery_logo.png" border="0"></a>
+</div>
+</p>
+<br />
+<a href="#top-page" class="a-top-page">Наверх</a>
+<div id="spacer">&nbsp;</div>
+
+
+
+</div> <!-- end content -->
+
+	<div id="footer">
+		&copy; Дизайн Yuri Timofeev
+	</div>
+
+</div>
+<!-- end container -->
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://apps.sourceforge.net/piwik/webacula/" : "http://apps.sourceforge.net/piwik/webacula/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = '';
+piwik_idsite = 1;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+<object><noscript><p><img src="http://apps.sourceforge.net/piwik/webacula/piwik.php?idsite=1" alt="piwik"/></p></noscript></object>
+<!-- End Piwik Tag -->
+
+</body>
+</html>
