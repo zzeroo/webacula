@@ -28,3 +28,5 @@ docs/src/*.pdf
 #docs/html/*
 #docs/txt/*
 #docs/pdf/*
+
+application/config.ini
